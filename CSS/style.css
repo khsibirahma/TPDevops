@@ -181,39 +181,53 @@ nav ul
 /**************** GESTION DU CONTENU ****************/
 .main-content
 {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     padding: 10vh 26vw 10vh 26vw;
     display: flex;
     flex-direction: column;
+    text-align: justify;
 }
 
 .main-content h1
 {
-    border: 1px solid slateblue;
+    /*border: 1px solid slateblue;*/
     font-size: 40px;
     padding-bottom: 2vh;
+    text-align: center;
 }
 
-.main-content li
+.adjectives li
 {
-    border: 1px solid rosybrown;
     list-style-type: none;
+}
+
+.school li
+{
+    /*border: 1px solid rosybrown;*/
+    list-style-type: none;
+    padding-bottom: 4vh;
+}
+
+.year
+{
+    font-weight: bold;
 }
 
 .container
 {
-    border: 1px solid teal;
+    /*border: 1px solid teal;*/
     padding-bottom: 8vh;
 }
 
 .container-logo
 {
-    border: 1px solid violet;
-    text-align: center;
+    /*border: 1px solid violet;*/
+    padding-left: 40vh;
+    padding-right: 40vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-evenly;
 }
 
 .container-logo a:hover
