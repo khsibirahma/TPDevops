@@ -8,9 +8,14 @@
 {
     box-sizing: border-box;
     margin: 0;
-    padding: 0; 
+    padding: 0;
     font-size: 16px;
 }
+html, body
+{ 
+    height: 100%; 
+}
+
 /*
 bleu foncé : #1A2238
 bleu-violet clair : #9DAAF2
@@ -26,11 +31,11 @@ gris clair : #E1E2E2
 #logo
 {
     /*border : 1px solid red;*/
-    height : 70px;
-    width : 70%;
-    padding-top: 17px;
-    padding-bottom: 21px;
-    padding-left : 20px;
+    height : 9vh;
+    width : 25vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left : 1vw;
     font-family: 'Rubik', sans-serif;
     color: #e1e2e2f6;
     font-weight: 500;
@@ -42,30 +47,29 @@ gris clair : #E1E2E2
 {
     /*border: 1px solid green;*/
     background-color: #1d2228;
-    width: 100%;
-    top: 0;
+    max-height: 15vh;
 }
 
-nav
+#navbar 
 {
     /*border: 1px solid blue;*/
-    width: 200%;
-    height: 70px;
-    padding-left: 40%;
+    width: 55vw;
+    height : 9vh;
+    padding-left: 20vw;
 }
 
 nav ul
 {
     /*border: 1px solid rgb(49, 150, 209);*/
-    padding: 10px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .menu, #header
 {
     list-style: none;
     display: flex;
-    padding: 20px 8%;
+    padding: 1% 5%;
     height: 100%;
     flex-direction: row;
     justify-content: space-around;
@@ -78,7 +82,7 @@ nav ul
     font-weight: 500;
     font-size: 19px;
     text-decoration: none;
-    padding: 5px 5px;
+    padding: 1vh 1vw;
     color: #e1e2e2bd;
 }
 
@@ -86,45 +90,53 @@ nav ul
 .banner
 {
     /*border: 1px solid blue;*/
-    padding: 100px 190px 250px 190px;
+    padding: 20vh 20vw 20vh 20vw;
     font-family: 'Nunito', sans-serif;
     color: #e1e2e2cc;
     background-color: #1D2228;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 85vh;
     /*clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);*/
 }
 
 .banner-meta p
 {
+    /*border: 1px solid rebeccapurple;*/
     font-size: 22px;
     font-weight: bold;
 }
 .banner-title
 {
-    padding-bottom: 30px;
-    padding-top: 20px;
+    /*border: 1px solid chartreuse;*/
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     color : #FB8122;
 }
 .banner-title p
 {
+    /*border: 1px solid violet;*/
     font-size: 60px;
     font-weight:bolder;
 }
 
 .banner-description p
 {
+    /*border: 1px solid aqua;*/
     font-size: 25px;
     color:#a2aab1;
-   
 }
+
 
 /**************** GESTION DU FOOTER ****************/
 footer
 {
     /*border: 1px solid red;*/
-    height: 100px;
+    height: 10vh;
     background-color: #1d2228e5;
-    margin-top:50px;
+    margin-top:5vh;
 }
 
 .footer-content
@@ -133,5 +145,5 @@ footer
     color: #e1e2e2cc;
     font-family: 'Rubik', sans-serif;
     text-align: center;
-    padding-top:20px;
+    padding-top:5vh;
 }
