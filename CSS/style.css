@@ -45,9 +45,9 @@ gris clair : #E1E2E2
 
 #logo:hover
 {
-    color : #FB8122;
+    color : #9DAAF2;
     transition: 0.4s;
-    font-size: 36px;
+    font-weight: bold;
 }
 
 #header
@@ -95,7 +95,9 @@ nav ul
 .menu li a:hover 
 {
     color: #e1e2e2f6;
+    font-weight: bold;
     border-bottom: 5px solid #9DAAF2;
+    border-radius: 0px 0px 10px 10px;
     transition: 0.4s;
 }
 
@@ -133,6 +135,12 @@ nav ul
     /*border: 1px solid violet;*/
     font-size: 60px;
     font-weight:bolder;
+    text-shadow: 2px 2px 2px #CE5937;
+}
+.banner-title p:hover
+{
+    
+    
 }
 
 .banner-description p
