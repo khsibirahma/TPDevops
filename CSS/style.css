@@ -1,0 +1,74 @@
+/**************** GESTION DES POLICES ****************/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    font-size: 16px;
+}
+
+/**************** GESTION DE LA BARRE DE NAVIGATION ****************/
+#logo
+{
+    /*border : 1px solid red;*/
+    height : 70px;
+    width : 70%;
+    padding-top: 17px;
+    padding-bottom: 21px;
+    padding-left : 20px;
+    font-family: 'Rubik', sans-serif;
+    color:aliceblue;
+    font-weight: 500;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#header
+{
+    /*border: 1px solid green;*/
+    background-color: #0e2033;
+    width: 100%;
+    top: 0;
+}
+
+nav
+{
+    /*border: 1px solid blue;*/
+    width: 200%;
+    height: 70px;
+    padding-left: 40%;
+}
+
+nav ul
+{
+    /*border: 1px solid rgb(49, 150, 209);*/
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+
+.menu, #header
+{
+    list-style: none;
+    display: flex;
+    padding: 20px 8%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu li a 
+{
+    /*border: 1px solid sienna;*/
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 5px 5px;
+    color:aliceblue;
+}
+
+/**************** GESTION DE LA BANNIERE ****************/
