@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
 
 *
 {
@@ -10,6 +11,16 @@
     padding: 0; 
     font-size: 16px;
 }
+/*
+bleu foncé : #1A2238
+bleu-violet clair : #9DAAF2
+orange : #FF6A3D
+jaune pale : #F4DB7D
+#####################################
+orange : #FB8122
+noir : #1D2228
+gris clair : #E1E2E2
+*/
 
 /**************** GESTION DE LA BARRE DE NAVIGATION ****************/
 #logo
@@ -21,16 +32,16 @@
     padding-bottom: 21px;
     padding-left : 20px;
     font-family: 'Rubik', sans-serif;
-    color:aliceblue;
+    color: #e1e2e2f6;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 35px;
     text-decoration: none;
 }
 
 #header
 {
     /*border: 1px solid green;*/
-    background-color: #1c2a38;
+    background-color: #1d2228;
     width: 100%;
     top: 0;
 }
@@ -48,7 +59,6 @@ nav ul
     /*border: 1px solid rgb(49, 150, 209);*/
     padding: 10px;
     justify-content: space-between;
-    
 }
 
 .menu, #header
@@ -66,33 +76,34 @@ nav ul
     /*border: 1px solid sienna;*/
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 19px;
     text-decoration: none;
     padding: 5px 5px;
-    color:aliceblue;
+    color: #e1e2e2bd;
 }
 
 /**************** GESTION DE LA BANNIERE ****************/
 .banner
 {
-    /*border: 1px solid red;*/
-    padding: 100px 190px 220px 190px;
-    font-family: 'Poppins', sans-serif;
-    color: aliceblue;
-    background-color:  #1c2a38;
+    /*border: 1px solid blue;*/
+    padding: 100px 190px 250px 190px;
+    font-family: 'Nunito', sans-serif;
+    color: #e1e2e2cc;
+    background-color: #1D2228;
     text-align: center;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    /*clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);*/
 }
 
 .banner-meta p
 {
     font-size: 22px;
-    color: #acb6c0;
+    font-weight: bold;
 }
 .banner-title
 {
     padding-bottom: 30px;
     padding-top: 20px;
+    color : #FB8122;
 }
 .banner-title p
 {
@@ -103,6 +114,24 @@ nav ul
 .banner-description p
 {
     font-size: 25px;
-    color:#b2b6b9;
+    color:#a2aab1;
+   
 }
 
+/**************** GESTION DU FOOTER ****************/
+footer
+{
+    /*border: 1px solid red;*/
+    height: 100px;
+    background-color: #1d2228e5;
+    margin-top:50px;
+}
+
+.footer-content
+{
+    /*border: 1px solid green;*/
+    color: #e1e2e2cc;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding-top:20px;
+}
