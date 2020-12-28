@@ -47,7 +47,6 @@ gris clair : #E1E2E2
 {
     color : #9DAAF2;
     transition: 0.4s;
-    font-weight: bold;
 }
 
 #header
@@ -97,7 +96,6 @@ nav ul
     color: #e1e2e2f6;
     font-weight: bold;
     border-bottom: 5px solid #9DAAF2;
-    border-radius: 0px 0px 10px 10px;
     transition: 0.4s;
 }
 
@@ -120,14 +118,17 @@ nav ul
 .banner-meta p
 {
     /*border: 1px solid rebeccapurple;*/
+    background-color: #e1e2e223;
+    border-radius: 10px 10px 10px 10px;
+    padding: 1vh 2vh;
     font-size: 22px;
     font-weight: bold;
 }
 .banner-title
 {
     /*border: 1px solid chartreuse;*/
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
     color : #FB8122;
 }
 .banner-title p
@@ -135,12 +136,7 @@ nav ul
     /*border: 1px solid violet;*/
     font-size: 60px;
     font-weight:bolder;
-    text-shadow: 2px 2px 2px #CE5937;
-}
-.banner-title p:hover
-{
-    
-    
+    text-shadow: 2px 2px 2px #CE5937; /*donne un effet 3D*/
 }
 
 .banner-description p
