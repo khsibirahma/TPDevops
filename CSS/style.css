@@ -1,6 +1,7 @@
 /**************** GESTION DES POLICES ****************/
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 *
 {
@@ -29,7 +30,7 @@
 #header
 {
     /*border: 1px solid green;*/
-    background-color: #0e2033;
+    background-color: #1c2a38;
     width: 100%;
     top: 0;
 }
@@ -72,3 +73,36 @@ nav ul
 }
 
 /**************** GESTION DE LA BANNIERE ****************/
+.banner
+{
+    /*border: 1px solid red;*/
+    padding: 100px 190px 220px 190px;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    background-color:  #1c2a38;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+}
+
+.banner-meta p
+{
+    font-size: 22px;
+    color: #acb6c0;
+}
+.banner-title
+{
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.banner-title p
+{
+    font-size: 60px;
+    font-weight:bolder;
+}
+
+.banner-description p
+{
+    font-size: 25px;
+    color:#b2b6b9;
+}
+
