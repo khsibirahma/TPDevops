@@ -211,18 +211,6 @@ nav ul
     text-align: center;
 }
 
-.school li
-{
-    /*border: 1px solid rosybrown;*/
-    list-style-type: none;
-    padding-bottom: 4vh;
-}
-
-.year
-{
-    font-weight: bold;
-}
-
 .container
 {
     /*border: 1px solid teal;*/
@@ -235,6 +223,18 @@ nav ul
     padding-bottom: 2vh;
 }
 
+/**** SPECIFIQUE A about.html ****/
+.school li
+{
+    /*border: 1px solid rosybrown;*/
+    list-style-type: none;
+    padding-bottom: 4vh;
+}
+
+.year
+{
+    font-weight: bold;
+}
 .qualities
 {
     color:#495ed1;
@@ -263,6 +263,13 @@ nav ul
 {
     opacity: 0.7;
 }
+
+/**** SPECIFIQUE A skills.html ****/
+.skills li
+{
+    list-style-type: none;
+}
+
 /**************** GESTION DU FOOTER ****************/
 footer
 {
