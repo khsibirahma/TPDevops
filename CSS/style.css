@@ -12,6 +12,7 @@
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
 }
+
 html, body
 { 
     height: 100vh; 
@@ -83,33 +84,28 @@ nav ul
     justify-content: space-around;
 }
 
-.link-menu a 
+.menu a 
 {
-    /*border: 1px solid sienna;*/
-    font-family: 'Quicksand', sans-serif;
-    font-weight:600;
     font-size: 20px;
     text-decoration: none;
     margin: 1vh 1vw;
     padding-bottom: 1vh;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.link-menu a 
+{
+    /*border: 1px solid sienna;*/
+    font-weight:600;   
     color: #e1e2e2bd;
 }
-.menu .link-menu a:hover
+
+.link-menu a:hover, .link-menu-active a
 {
     color: #e1e2e2f6;
     font-weight: bold;
     border-bottom: 5px solid #8e9df3;
     transition: 0.4s;
-}
-.link-menu-active a
-{
-    margin: 1vh 1vw;
-    padding-bottom: 1vh;
-    color: #e1e2e2f6;
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: none;
-    border-bottom: 5px solid #8e9df3;
 }
 
 /**************** GESTION DE LA BANNIERE ****************/
@@ -138,6 +134,7 @@ nav ul
     font-weight: bold;
     color:#c3cad3;
 }
+
 .banner-meta p:hover
 {
     font-size: 24px;
@@ -150,6 +147,7 @@ nav ul
     padding-bottom: 7vh;
     color : #FB8122;
 }
+
 .banner-title p
 {
     /*border: 1px solid violet;*/
@@ -247,12 +245,18 @@ nav ul
 .container-logo
 {
     /*border: 1px solid violet;*/
-    padding-left: 40vh;
-    padding-right: 40vh;
+    padding-left: 30vh;
+    padding-right: 30vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content:space-evenly;
+}
+
+.container-logo p
+{
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .container-logo a:hover
