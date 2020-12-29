@@ -15,7 +15,7 @@
 html, body
 { 
     height: 100vh; 
-    background-color:#dfe2e6;
+    background-color:#e1e9f3;
 }
 
 /*
@@ -47,7 +47,7 @@ gris clair : #E1E2E2
 
 #logo:hover
 {
-    color : #9DAAF2;
+    color : #8e9df3;
     transition: 0.4s;
 }
 
@@ -83,22 +83,33 @@ nav ul
     justify-content: space-around;
 }
 
-.menu li a 
+.link-menu a 
 {
     /*border: 1px solid sienna;*/
     font-family: 'Quicksand', sans-serif;
-    font-weight:600s;
+    font-weight:600;
     font-size: 20px;
     text-decoration: none;
-    padding: 1vh 1vw;
+    margin: 1vh 1vw;
+    padding-bottom: 1vh;
     color: #e1e2e2bd;
 }
-.menu li a:hover 
+.menu .link-menu a:hover
 {
     color: #e1e2e2f6;
     font-weight: bold;
-    border-bottom: 5px solid #9DAAF2;
+    border-bottom: 5px solid #8e9df3;
     transition: 0.4s;
+}
+.link-menu-active a
+{
+    margin: 1vh 1vw;
+    padding-bottom: 1vh;
+    color: #e1e2e2f6;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 5px solid #8e9df3;
 }
 
 /**************** GESTION DE LA BANNIERE ****************/
@@ -125,7 +136,13 @@ nav ul
     padding: 1vh 2vh;
     font-size: 22px;
     font-weight: bold;
+    color:#c3cad3;
 }
+.banner-meta p:hover
+{
+    font-size: 24px;
+}
+
 .banner-title
 {
     /*border: 1px solid chartreuse;*/
@@ -196,11 +213,6 @@ nav ul
     text-align: center;
 }
 
-.adjectives li
-{
-    list-style-type: none;
-}
-
 .school li
 {
     /*border: 1px solid rosybrown;*/
@@ -217,6 +229,19 @@ nav ul
 {
     /*border: 1px solid teal;*/
     padding-bottom: 8vh;
+}
+
+.container p 
+{
+    /*border: 1px solid violet;*/
+    padding-bottom: 2vh;
+}
+
+.qualities
+{
+    color:#495ed1;
+    font-weight: bold;
+    font-size: 22px;
 }
 
 .container-logo
