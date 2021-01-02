@@ -250,7 +250,7 @@ nav ul
 
 .container-logo p
 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -283,6 +283,63 @@ nav ul
 }
 
 /**** SPECIFIQUE A projects.html ****/
+.project-content
+{
+    /*border: 1px solid red;*/
+    padding: 10vh 20vw 10vh 20vw;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+#prev, #next {
+  cursor: pointer;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  transition: 0.6s;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+#prev:hover, #next:hover 
+{
+    opacity: 0.67;
+}
+
+.project-box
+{
+    border: 1px solid saddlebrown;
+    width: 60vw;
+}
+.project-capture 
+{
+    border: 1px solid green;
+    width: 100%;
+}
+
+.project-description
+{
+
+}
+
+.project-dot
+{
+    text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(204, 200, 200);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s;
+}
+
 
 /**************** GESTION DU FOOTER ****************/
 footer
