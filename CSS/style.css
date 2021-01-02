@@ -289,6 +289,27 @@ nav ul
     padding: 10vh 15vw 10vh 15vw;
 }
 
+.project-dot
+{
+    text-align: center;
+}
+
+.dot 
+{
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(204, 200, 200);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s;
+}
+
+.active, .dot:hover 
+{
+    background-color: #717171;
+}
+
 .slide
 {
     display: flex;
@@ -315,8 +336,16 @@ nav ul
 .project-box
 {
     /*border: 1px solid saddlebrown;*/
-    width: auto;
+    width: 100%;
     display: none;
+}
+
+.project-title p
+{
+    padding-top: 2vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .project-capture 
@@ -324,36 +353,41 @@ nav ul
     /*border: 1px solid green;*/
     width: 100%;
     height: 70vh;
-
 }
 
-.project-title
+.project-description
 {
+    /*border: 1px solid tomato;*/
+    padding: 2vh 10vw;
     text-align: center;
-    font-size: 22px;
+}
+
+.project-type
+{
+    font-size: 18px;
+    font-style: italic;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.technology
+{
     font-weight: bold;
 }
 
-.project-dot
+.project-link img
 {
-    text-align: center;
+    margin-top: 4vh;
+    background-color: #495ed1;
+    padding: 0.4vh 3vw 0.4vh 3vw;
+    border-radius: 30px;
 }
 
-.dot 
+.project-link:hover 
 {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: rgb(204, 200, 200);
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s;
+    opacity: 0.7;
+    transition: 0.4s;
 }
-.active, .dot:hover 
-{
-    background-color: #717171;
-}
-
 /**************** GESTION DU FOOTER ****************/
 footer
 {
