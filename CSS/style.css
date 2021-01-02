@@ -340,14 +340,6 @@ nav ul
     display: none;
 }
 
-.project-title p
-{
-    padding-top: 2vh;
-    text-align: center;
-    font-size: 22px;
-    font-weight: bold;
-}
-
 .project-capture 
 {
     /*border: 1px solid green;*/
@@ -355,10 +347,18 @@ nav ul
     height: 70vh;
 }
 
+.project-title p
+{
+    padding-top: 1vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
 .project-description
 {
     /*border: 1px solid tomato;*/
-    padding: 2vh 10vw;
+    padding: 1vh 10vw;
     text-align: center;
 }
 
@@ -366,8 +366,7 @@ nav ul
 {
     font-size: 18px;
     font-style: italic;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-bottom: 0.5vh;
 }
 
 .technology
@@ -377,7 +376,7 @@ nav ul
 
 .project-link img
 {
-    margin-top: 4vh;
+    margin-top: 2vh;
     background-color: #495ed1;
     padding: 0.4vh 3vw 0.4vh 3vw;
     border-radius: 30px;
