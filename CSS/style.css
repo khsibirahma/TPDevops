@@ -9,7 +9,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -135,11 +135,6 @@ nav ul
     color:#c3cad3;
 }
 
-.banner-meta p:hover
-{
-    font-size: 24px;
-}
-
 .banner-title
 {
     /*border: 1px solid chartreuse;*/
@@ -239,7 +234,7 @@ nav ul
 {
     color:#495ed1;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .container-logo
@@ -286,6 +281,8 @@ nav ul
     list-style-type: none;
     text-align: center;
 }
+
+/**** SPECIFIQUE A projects.html ****/
 
 /**************** GESTION DU FOOTER ****************/
 footer
