@@ -38,34 +38,41 @@
     </div>
 
     <div class="project-content">
-        <div class="project-box">
-            <img src="IMG/projets/beauty/beauty2.PNG" alt="capture du jeu beauty savior" class="project-capture">
-            <div class="project-description">Beauty Savior</div>
-        </div>
+            <div class="slide">
+            <a id="prev" onclick="incrementer(-1)">
+                <img src="IMG/projets/fleche_gauche.png" alt="bouton flèche de gauche/précédent">
+            </a>
 
-        <div class="project-box">
-            <img src="IMG/projets/cuisine/cuisine1.png" alt="capture du site fictif de cuisine" class="project-capture">
-            <div class="project-description">Site fictif de cuisine</div>
-        </div>
+            <div class="project-box">
+                <img src="IMG/projets/beauty/beauty2.PNG" alt="capture du jeu beauty savior" class="project-capture">
+                <div class="project-description">Beauty Savior</div>
+            </div>
 
-        <div class="project-box">
-            <img src="IMG/projets/projet_vierge.png" alt="rectangle gris avec écit 'projet à venir'" class="project-capture">
-            <div class="project-description">Projet en cours</div>
-        </div>
+            <div class="project-box">
+                <img src="IMG/projets/cuisine/cuisine1.png" alt="capture du site fictif de cuisine" class="project-capture">
+                <div class="project-description">Site fictif de cuisine</div>
+            </div>
 
-        <div class="project-box">
-            <img src="IMG/projets/projet_vierge.png" alt="rectangle gris avec écit 'projet à venir'" class="project-capture">
-            <div class="project-description">Projet en cours</div>
-        </div>
+            <div class="project-box">
+                <img src="IMG/projets/projet_vierge.png" alt="rectangle gris avec écit 'projet à venir'" class="project-capture">
+                <div class="project-description">Projet en cours</div>
+            </div>
 
-        <a id="prev"><img src="IMG/projets/fleche_gauche.png" alt="bouton flèche de gauche/précédent"></a>
-        <a id="next"><img src="IMG/projets/fleche_droite.png" alt="bouton flèche de droite/suivant"></a>
+            <div class="project-box">
+                <img src="IMG/projets/projet_vierge.png" alt="rectangle gris avec écit 'projet à venir'" class="project-capture">
+                <div class="project-description">Projet en cours 2</div>
+            </div>
+
+            <a id="next" onclick="incrementer(1)">
+                <img src="IMG/projets/fleche_droite.png" alt="bouton flèche de droite/suivant">
+            </a>
+        </div>
 
         <div class="project-dot">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="positionActuelle(1)"></span>
+            <span class="dot" onclick="positionActuelle(2)"></span>
+            <span class="dot" onclick="positionActuelle(3)"></span>
+            <span class="dot" onclick="positionActuelle(4)"></span>
         </div>
     </div><!-- Fin du div project-content -->
 
@@ -80,5 +87,5 @@
     </footer>
 
 </body>
-
+<script src="JS/slide.js"></script>
 </html>

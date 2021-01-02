@@ -286,42 +286,49 @@ nav ul
 .project-content
 {
     /*border: 1px solid red;*/
-    padding: 10vh 20vw 10vh 20vw;
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
+    padding: 10vh 15vw 10vh 15vw;
 }
 
-#prev, #next {
-  cursor: pointer;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  transition: 0.6s;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+.slide
+{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+#prev, #next 
+{
+    /*border: 1px solid fuchsia;*/
+    cursor: pointer;
+    padding: 16px;
+    width: 6vw;
+    transition: 0.6s;
+    border-radius: 0 3px 3px 0;
 }
 
 #prev:hover, #next:hover 
 {
-    opacity: 0.67;
+    opacity: 0.5;
 }
 
 .project-box
 {
-    border: 1px solid saddlebrown;
-    width: 60vw;
+    /*border: 1px solid saddlebrown;*/
+    width: auto;
+    display: none;
 }
+
 .project-capture 
 {
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     width: 100%;
 }
 
 .project-description
 {
-
+    width: 100%;
+    text-align: center;
 }
 
 .project-dot
@@ -329,8 +336,8 @@ nav ul
     text-align: center;
 }
 
-.dot {
-  cursor: pointer;
+.dot 
+{
   height: 15px;
   width: 15px;
   margin: 0 2px;
@@ -338,6 +345,10 @@ nav ul
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s;
+}
+.active, .dot:hover 
+{
+    background-color: #717171;
 }
 
 
