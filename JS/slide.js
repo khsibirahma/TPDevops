@@ -1,12 +1,12 @@
 let index = 1;
 afficher(index); // afficher la premiere image
 
-function incrementer(n) // incrementer l'index de n
+function incrementer(n) // incrementer l'index de n et afficher l'image correspondante
 {
     afficher(index += n);
 }
 
-function positionActuelle(n) // mettre a la position n
+function positionActuelle(n) // afficher l'image a l'index n
 {
     afficher(index = n);
 }
@@ -28,15 +28,16 @@ function afficher(n)
 
     for (i = 0; i < slides.length; i++) 
     {
-        slides[i].style.display = "none"; // cacher les images 
+        slides[i].style.display = "none"; // cacher toutes les images 
     }
 
     for (i = 0; i < dots.length; i++) 
     {
+        // remettre les dots en non-active
         dots[i].className = dots[i].className.replace(" active", "");
     }
 
-    slides[index - 1].style.display = "block";
-    dots[index - 1].className += " active";
+    slides[index - 1].style.display = "block"; // mettre a jour l'affichage
+    dots[index - 1].className += " active"; // mettre a jour l'affichage des dots
 }
 

@@ -325,10 +325,11 @@ nav ul
     width: 100%;
 }
 
-.project-description
+.project-title
 {
-    width: 100%;
     text-align: center;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .project-dot
@@ -350,7 +351,6 @@ nav ul
 {
     background-color: #717171;
 }
-
 
 /**************** GESTION DU FOOTER ****************/
 footer
