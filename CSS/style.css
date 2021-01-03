@@ -282,6 +282,11 @@ nav ul
     text-align: center;
 }
 
+.skills img:hover
+{
+    opacity: 0.5;
+}
+
 /**** SPECIFIQUE A projects.html ****/
 .project-content
 {
