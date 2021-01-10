@@ -23,10 +23,10 @@ html, body
 #logo
 {
     /*border : 1px solid red;*/
-    height : 9vh;
+    height :9vh;
     width : 25vw;
     padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-bottom: 3vh;
     padding-left : 1vw;
     font-family: 'Rubik', sans-serif;
     color: #e1e2e2f6;
@@ -45,7 +45,7 @@ html, body
 {
     /*border: 1px solid green;*/
     background-color: #1d2228;
-    max-height: 15vh;
+    height: 14vh;
 }
 
 #navbar 
@@ -61,6 +61,7 @@ nav ul
     /*border: 1px solid rgb(49, 150, 209);*/
     justify-content: space-between;
     align-items: center;
+    height: 5vh;
 }
 
 .menu, #header
@@ -68,9 +69,18 @@ nav ul
     list-style: none;
     display: flex;
     padding: 1% 5%;
-    height: 100%;
     flex-direction: row;
     justify-content: space-around;
+}
+
+#header
+{
+    height: 14vh;
+}
+
+.menu 
+{
+    height: 9vh;
 }
 
 .menu a 
@@ -110,7 +120,7 @@ nav ul
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 85vh;
+    height: 86vh;
 }
 
 .banner-meta p
