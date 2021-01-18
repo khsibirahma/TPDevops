@@ -46,6 +46,7 @@ html, body
     /*border: 1px solid green;*/
     background-color: #1d2228;
     height: 14vh;
+    width:100%;
 }
 
 #navbar 
@@ -417,7 +418,6 @@ input, textarea
     height: 5vh;
     border-radius: 20px;
     margin-top: 2vh;
-    paddi
 }
 
 #validate:hover

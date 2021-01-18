@@ -17,7 +17,7 @@ function afficher(n)
     let slides = document.getElementsByClassName("project-box");
     let dots = document.getElementsByClassName("dot");
 
-    if (n > slides.length) 
+    if (n > slides.length) //Si on est arrive au bout
     { 
         index = 1; // Remettre au debut
     }
@@ -28,7 +28,7 @@ function afficher(n)
 
     for (i = 0; i < slides.length; i++) 
     {
-        slides[i].style.display = "none"; // cacher toutes les images 
+        slides[i].style.display = "none"; // Cacher toutes les images 
     }
 
     for (i = 0; i < dots.length; i++) 
