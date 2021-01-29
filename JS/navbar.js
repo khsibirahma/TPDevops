@@ -13,20 +13,23 @@ console.log(taille3);*/
 //Si l'ecran > 800px
 if (taille1 > 800 || taille2 > 800 || taille3 > 800)
 {
-    window.addEventListener('scroll', function(e){
+    window.onscroll = function () {
         let el = document.querySelector("#header");
+        //let menu = document.querySelector(".menu");
         //console.log("height ="+el.offsetHeight);
 
         if (document.documentElement.scrollTop > el.offsetHeight || document.body.scrollTop > el.offsetHeight){
             //console.log("superieur");
             el.style.position = "fixed";
-            el.style.height = "9vh";
-            el.style.paddingTop = "0";
+            el.style.height = "6vh";
+            el.style.padding = "0% 5%";
         }
         else{
             //console.log("inferieur");
-            el.style.position = "";
+            el.style.position = "relative";
+            el.style.height = "14vh";
+            el.style.padding = "1% 5%";
         }
-    });
+    };
 
 }

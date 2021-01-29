@@ -23,11 +23,10 @@ html, body
 #logo
 {
     /*border : 1px solid red;*/
-    height :9vh;
+    height :5vh;
     width : 25vw;
-    padding-top: 2vh;
-    padding-bottom: 3vh;
     padding-left : 1vw;
+    padding-top: 1vh;
     font-family: 'Rubik', sans-serif;
     color: #e1e2e2f6;
     font-weight: 400;
@@ -62,7 +61,7 @@ nav ul
     /*border: 1px solid rgb(49, 150, 209);*/
     justify-content: space-between;
     align-items: center;
-    height: 5vh;
+    height: 1vh;
 }
 
 .menu, #header
@@ -81,7 +80,7 @@ nav ul
 
 .menu 
 {
-    height: 9vh;
+    height: 5vh;
 }
 
 .menu a 
