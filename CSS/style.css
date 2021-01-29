@@ -26,7 +26,7 @@ html, body
     height :5vh;
     width : 25vw;
     padding-left : 1vw;
-    padding-top: 1vh;
+    /*padding-top: 1vh;*/
     font-family: 'Rubik', sans-serif;
     color: #e1e2e2f6;
     font-weight: 400;
@@ -50,9 +50,9 @@ html, body
 
 #navbar 
 {
-    /*border: 1px solid blue;*/
+   /* border: 1px solid blue;*/
     width: 55vw;
-    height : 9vh;
+    height : 5vh;
     padding-left: 20vw;
 }
 
@@ -73,14 +73,10 @@ nav ul
     justify-content: space-around;
 }
 
-#header
-{
-    height: 14vh;
-}
-
 .menu 
 {
-    height: 5vh;
+    /*border: 1px solid rgb(49, 150, 209);*/
+    height: 100%;
 }
 
 .menu a 
