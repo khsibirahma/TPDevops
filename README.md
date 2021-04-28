@@ -1,8 +1,7 @@
 # Site-profesionnel
-Portfolio - En cours de construction..
+Portfolio 
 
-Version responsive/mobile à venir..
+Pas de version mobile de disponible. Une deuxième version est en cours de construction...
 
-[lien vers le portfolio](https://cassandrachaumulon.eu/)
 
-[lien vers la version avec GitHub Pages](https://cassandrach.github.io/)
+[lien vers le portfolio](https://cassandrach.github.io/)
