@@ -15,4 +15,4 @@ Première version de mon portfolio qui présente mes projets et mes compétences
 [lien vers le portfolio (version 1)](https://cassandrach.github.io/portfolio-v1/)
 
 
-[NOUVELLE VERSION ICI !]( https://cassandrach.github.io/)
+[NOUVELLE VERSION ICI !](https://cassandrachaumulon.herokuapp.com/)
